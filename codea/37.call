@@ -1,0 +1,55 @@
+/*
+ * vim: filetype=c
+ */
+#include "test_utils.c"
+extern long f(long);
+extern long g(long);
+extern long h(long);
+extern long i(long);
+extern long j(long);
+extern long k(long);
+RET(
+    _assert(f(0), 0)
+    && _assert(f(1), 12)
+    && _assert(f(-1), -12)
+    && _assert(f(7), 84)
+    && _assert(f(-7), -84)
+    && _assert(f(41568), 498816)
+    && _assert(f(-8614), -103368)
+
+    && _assert(g(0), 12)
+    && _assert(g(1), 24)
+    && _assert(g(-1), 0)
+    && _assert(g(7), 96)
+    && _assert(g(-7), -72)
+    && _assert(g(41568), 498828)
+    && _assert(g(-8614), -103356)
+
+    && _assert(h(0), 0)
+    && _assert(h(1), 120)
+    && _assert(h(-1), 120)
+    && _assert(h(7), 5880)
+    && _assert(h(-7), 5880)
+    && _assert(h(41568), 207347834880)
+    && _assert(h(-8614), 8904119520)
+
+    && _assert(i(0), 120)
+    && _assert(i(1), 480)
+    && _assert(i(-1), 0)
+    && _assert(i(7), 7680)
+    && _assert(i(-7), 4320)
+    && _assert(i(41568), 207357811320)
+    && _assert(i(-8614), 8902052280)
+
+    && _assert(j(0), 0)
+    && _assert(j(1), 24)
+    && _assert(j(-1), -24)
+    && _assert(j(456), 10944)
+    && _assert(j(-2541), -60984)
+
+    && _assert(k(0), 0)
+    && _assert(k(1), 24)
+    && _assert(k(-1), -24)
+    && _assert(k(456), 10944)
+    && _assert(k(-2541), -60984)
+);

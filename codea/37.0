@@ -1,0 +1,23 @@
+f(x)
+    return 3 * x * 4;
+end;
+
+g(x)
+    return 3 * (x + 1) * 4;
+end;
+
+h(x)
+    return (3 * x * 4) * (2 * x * 5);
+end;
+
+i(x)
+    return (3 * (x + 1) * 4) * (2 * (x + 1) * 5);
+end;
+
+j(x)
+    return 1 * 2 * 3 * 4 * x;
+end;
+
+k(x)
+    return 1 * 2 * x * 3 * 4;
+end;
