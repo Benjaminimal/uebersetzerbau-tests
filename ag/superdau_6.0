@@ -1,0 +1,6 @@
+main(x, y)
+  var z := 0xDEADBEEF;
+  x + z;
+  return y;
+  return x * z;
+end;

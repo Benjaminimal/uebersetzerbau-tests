@@ -1,0 +1,3 @@
+main(x)
+  id : loop x; x; x; x; end;
+end;

@@ -1,0 +1,3 @@
+main()
+  *fac(0xffffffffffffffff) := too_much;
+end;

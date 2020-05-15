@@ -1,0 +1,4 @@
+nmain(b)
+  var a := 0;
+  fn(fn2(fn3( (a*a)+(b*b)  )));
+end;

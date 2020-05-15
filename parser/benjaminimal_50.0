@@ -1,0 +1,3 @@
+main()
+  *ptr := blob;
+end;

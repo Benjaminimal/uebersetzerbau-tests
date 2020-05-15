@@ -1,0 +1,8 @@
+/*
+ * vim: filetype=c
+ */
+#include "test_utils.c"
+extern long f();
+RET(
+    _assert(f(), 7)
+);

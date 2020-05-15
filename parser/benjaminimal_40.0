@@ -1,0 +1,3 @@
+main()
+  if some_thing then else end;
+end;

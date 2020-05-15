@@ -1,0 +1,15 @@
+f(x)
+    return --(x + 0);
+end;
+
+g(x)
+    return ---(x + 0);
+end;
+
+h(x)
+    return ----(x + 0);
+end;
+
+i(x)
+    return -----(x + 0);
+end;

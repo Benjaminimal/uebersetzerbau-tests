@@ -1,0 +1,7 @@
+main()
+  if some_thing then
+    other_thing;
+  else
+    that_thing;
+  end;
+end;

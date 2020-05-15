@@ -1,0 +1,7 @@
+f(x)
+    return x * (x + (x * (x + (x * x))));
+end;
+
+g(x)
+    return x * (x + (x * (x + (x * x))));
+end;

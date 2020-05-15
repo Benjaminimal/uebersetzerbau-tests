@@ -1,0 +1,3 @@
+main()
+  not is_wrong;
+end;

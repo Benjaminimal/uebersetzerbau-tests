@@ -1,0 +1,3 @@
+main()
+  (21 + zero) and 0x51;
+end;

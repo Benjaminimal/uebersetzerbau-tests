@@ -1,0 +1,16 @@
+main(argc, argv,)
+    var some_5324ID__ := 0123;
+    var zilch := 0x321;
+    var foo := argc;
+	var x := 0;
+    if foo <= 1312 then
+        x := some_func(not 1, *2, 3,);
+        return some_5324ID__;
+    else
+        if (x + 0x0021) <= 161 then
+            return 0;
+        else
+            return zilch;
+        end;
+    end;
+end; 

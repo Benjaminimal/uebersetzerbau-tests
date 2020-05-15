@@ -1,0 +1,5 @@
+main()
+  L0 : loop
+   cont L0;
+  end;
+end;

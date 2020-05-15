@@ -1,0 +1,8 @@
+main()
+  var a:= 0x0;
+  x: loop
+    y: loop
+      if 1 then break x; break y; cont x; cont y; else *a := *********a; end;
+    end;
+  end;
+end;

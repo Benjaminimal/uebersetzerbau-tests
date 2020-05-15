@@ -1,0 +1,19 @@
+/*
+ * vim: filetype=c
+ */
+#include "test_utils.c"
+extern long f0(long, long, long, long, long, long);
+extern long f1(long, long, long, long, long, long);
+extern long f2(long, long, long, long, long, long);
+extern long f3(long, long, long, long, long, long);
+extern long f4(long, long, long, long, long, long);
+extern long f5(long, long, long, long, long, long);
+
+RET(
+    _assert(f0(0, 1, 2, 3, 4, 5), 0)
+    && _assert(f1(0, 1, 2, 3, 4, 5), 1)
+    && _assert(f2(0, 1, 2, 3, 4, 5), 2)
+    && _assert(f3(0, 1, 2, 3, 4, 5), 3)
+    && _assert(f4(0, 1, 2, 3, 4, 5), 4)
+    && _assert(f5(0, 1, 2, 3, 4, 5), 5)
+);

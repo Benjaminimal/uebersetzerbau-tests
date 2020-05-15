@@ -1,0 +1,3 @@
+f()
+    return -66;
+end;

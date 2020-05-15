@@ -1,0 +1,7 @@
+main()
+  x: loop
+    y: loop
+      if 1 then break x; break y; cont x; cont y; else break x; break y; cont x; cont y; end;
+    end;
+  end;
+end;

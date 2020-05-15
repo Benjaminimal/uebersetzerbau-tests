@@ -1,0 +1,11 @@
+main()
+  if x <= a then
+    if y <= b then
+      xyz;
+    end;
+  else
+    if z <= c then
+      zyx;
+    end;
+  end;
+end;

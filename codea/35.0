@@ -1,0 +1,15 @@
+f(x)
+    return not not x;
+end;
+
+g(x)
+    return not not not x;
+end;
+
+h(x)
+    return not not not not x;
+end;
+
+i(x)
+    return not not not not not x;
+end;

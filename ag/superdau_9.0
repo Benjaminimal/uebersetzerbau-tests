@@ -1,0 +1,9 @@
+main(x)
+  if 1 then
+    var y := 1;
+    id: loop
+        x;
+        y;
+    end;
+  end;
+end;

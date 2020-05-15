@@ -1,0 +1,12 @@
+/*
+ * vim: filetype=c
+ */
+#include "test_utils.c"
+extern long f(long);
+RET(
+    _assert(f(1), -1)
+    && _assert(f(0), -1)
+    && _assert(f(-252), -1)
+    && _assert(f(2), 0)
+    && _assert(f(4566), 0)
+);

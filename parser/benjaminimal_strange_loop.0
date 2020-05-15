@@ -1,0 +1,12 @@
+strange_loop(left, right)
+  L0 : loop
+    if not (left # right) then
+      if left <= right then
+        left := *(right + left);
+      end;
+    else
+      break L0;
+    end;
+  end;
+  return strange_loop(right, left);
+end;

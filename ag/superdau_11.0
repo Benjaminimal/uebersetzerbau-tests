@@ -1,0 +1,7 @@
+some_defined_fn()
+  1;
+end;
+
+main()
+  return some_defined_fn(1, 2, 3);
+end;

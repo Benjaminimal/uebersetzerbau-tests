@@ -1,0 +1,3 @@
+main()
+  *(67) := not (blue # green);
+end;

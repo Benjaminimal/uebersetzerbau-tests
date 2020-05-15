@@ -1,0 +1,3 @@
+f(x)
+    return 4 and x;
+end;
